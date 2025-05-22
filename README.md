@@ -97,7 +97,7 @@ void decrypt(char *cipher, int key, char *result) {
 int main() {
     printf("RAIL FENCE CIPHER: \n");
 
-    char text[] = "Hello World";
+    char text[] = "Kasi";
     int key = 2;
     char cipher[100];
     char decrypted[100];
@@ -112,6 +112,7 @@ int main() {
 
     return 0;
 }
+
 ```
 ## OUTPUT:
 ![Screenshot 2025-05-22 105748](https://github.com/user-attachments/assets/96b569f4-c575-46b9-ba08-99c3277ace6e)
